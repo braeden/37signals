@@ -1,0 +1,436 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+body {
+	padding-top: 15px;
+	padding-bottom: 0px;
+	margin-bottom: 0;
+}
+
+
+header {
+	float: right
+	right: 80%;
+	align: right;
+	}
+
+header li {
+	margin: 0;
+	margin-right: 15px;
+	color: #3366b2;
+	display: inline;
+	float: right;
+}
+
+header li:hover {
+	cursor: pointer;
+	color: #5197FF
+}
+
+.day {
+display: inline;
+color: #b2b2a5;
+float: left;
+margin-left: 50px
+}
+
+
+
+.image {
+	padding: 0;
+	margin: 0;
+	border: none;
+	padding-top: 75px;
+	align: center;
+	float: center;
+	text-align: center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+	
+	
+}
+
+
+.par {
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 1.5em;
+	font-family: serif;
+	font-size: 1.2em;
+	width: 900px
+	margin-bottom: 1.2em;
+		align: center;
+	float: center;
+	text-align: center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+	}
+	
+.basecamp {
+	
+	width:11em;
+	    margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	padding-top: 20px;
+	border: 1px solid #E0E0E0;
+    border-radius: 6px;
+	margin: 10px;
+	Height: 14em;
+	left: 28%;
+	display: inline-block;
+	position: relative;
+
+	
+	
+ 
+  background-color: #ffffff; /* fallback color if gradients are not supported */
+  background-image: -webkit-linear-gradient(top, #FFFFFF, #E3E3E3); /* For Chrome and Safari */
+  background-image:    -moz-linear-gradient(top, #FFFFFF, #E3E3E3); /* For old Fx (3.6 to 15) */
+  background-image:      -o-linear-gradient(top, #FFFFFF, #E3E3E3); /* For old Opera (11.1 to 12.0) */ 
+  background-image:         linear-gradient(to bottom, #FFFFFF, #E3E3E3); /* Standard syntax; must be last */
+}
+  background-image:     -ms-linear-gradient(top, #FFFFFF, #E3E3E3); /* For pre-releases of IE 10*/
+	
+.basecamp img {
+	vertical-align: top;
+
+    
+	
+}
+
+.basecamp:hover {
+	cursor: pointer;
+
+
+}
+
+
+
+
+.campfire {
+	
+	width:11em;
+	    margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	padding-top: 20px;
+	border: 1px solid #E0E0E0;
+    border-radius: 6px;
+	margin: 10px;
+	Height: 14em;
+	left: 28%;
+	display: inline-block;
+	position: relative;
+
+	
+	
+ 
+  background-color: #ffffff; /* fallback color if gradients are not supported */
+  background-image: -webkit-linear-gradient(top, #FFFFFF, #E3E3E3); /* For Chrome and Safari */
+  background-image:    -moz-linear-gradient(top, #FFFFFF, #E3E3E3); /* For old Fx (3.6 to 15) */
+  background-image:     -ms-linear-gradient(top, #FFFFFF, #E3E3E3); /* For pre-releases of IE 10*/
+  background-image:      -o-linear-gradient(top, #FFFFFF, #E3E3E3); /* For old Opera (11.1 to 12.0) */ 
+  background-image:         linear-gradient(to bottom, #FFFFFF, #E3E3E3); /* Standard syntax; must be last */
+}
+	
+.campfire img {
+	vertical-align: top;
+
+    
+	
+}
+
+.campfire:hover {
+	cursor: pointer;
+
+
+}
+
+
+
+
+
+.highrise {
+	
+	width:11em;
+	    margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	padding-top: 20px;
+	border: 1px solid #E0E0E0;
+    border-radius: 6px;
+	margin: 10px;
+	Height: 14em;
+	left: 28%;
+	display: inline-block;
+	position: relative;
+
+	
+	
+ 
+  background-color: #ffffff; /* fallback color if gradients are not supported */
+  background-image: -webkit-linear-gradient(top, #FFFFFF, #E3E3E3); /* For Chrome and Safari */
+  background-image:    -moz-linear-gradient(top, #FFFFFF, #E3E3E3); /* For old Fx (3.6 to 15) */
+  background-image:     -ms-linear-gradient(top, #FFFFFF, #E3E3E3); /* For pre-releases of IE 10*/
+  background-image:      -o-linear-gradient(top, #FFFFFF, #E3E3E3); /* For old Opera (11.1 to 12.0) */ 
+  background-image:         linear-gradient(to bottom, #FFFFFF, #E3E3E3); /* Standard syntax; must be last */
+}
+	
+.highrise img {
+	vertical-align: top;
+
+    
+	
+}
+
+.highrise:hover {
+	cursor: pointer;
+
+
+
+}
+
+
+
+
+
+.title {
+	color: blue;
+	font-size: 1.5em;
+	text-decoration: underline;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+	}
+	
+	.title:hover {
+	pointer: cursor;
+	}
+	
+.desone {
+	font-type: sans;
+	color: red;
+	margin-top: .5em;
+	margin-bottom: .8em;
+	font-size: 1.15em;
+	text-decoration: bold;
+	}
+	.desone:hover {
+	pointer: cursor;
+	}
+.destwo {
+	width: 9em;
+	
+	margin-left: auto;
+    margin-right: auto;
+	}
+	
+	.destwo:hover {
+	pointer: cursor;
+	}
+	
+.foot  img{
+position: absolute;
+vertical-align: bottom;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+	left: 47%;
+	text-align:center;
+ }
+	
+	
+	
+
+	
+.basepar {
+	margin-left: 250px;
+    margin-right: 250px;
+	margin-top: 1.5em;
+	font-family: serif;
+	font-size: 1.1em;
+
+		text-align: center;
+	margin-bottom: .1em;
+	}
+	
+	
+.highpar {
+	margin-left: 250px;
+    margin-right: 250px;
+	margin-top: 1.5em;
+	font-family: serif;
+	font-size: 1.1em;
+	width: 900px
+	margin-bottom: .1em;
+	text-align: center;
+	}
+	
+	
+.camppar {
+	margin-left: 250px;
+    margin-right: 250px;
+	margin-top: 1.5em;
+	font-family: serif;
+	font-size: 1.1em;
+	width: 900px
+	margin-bottom: .1em;
+		text-align: center;
+	}
+	
+
+	
+	
+
+
+.main {
+	padding-top: 24px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+
+	font-size: 45px;
+	font-family: serif;
+		align: center;
+	float: center;
+	text-align: center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+	}
+	
+	
+
+.basemain {
+	padding-top: 10px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+
+	font-size: 45px;
+	font-family: serif;
+	align: center;
+	float: center;
+	text-align: center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+	}
+	
+.highmain {
+	padding-top: 10px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+
+	font-size: 45px;
+	font-family: serif;
+	align: center;
+	float: center;
+	text-align: center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+	}
+
+.campmain {
+	padding-top: 10px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+
+	font-size: 45px;
+	font-family: serif;
+	align: center;
+	float: center;
+	text-align: center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+	}
+
+
+.product {
+	text-decoration:underline;
+	color: blue;
+}
+	
+
+
+.basearrow {
+	position: absolute;
+	top: 45%;
+	left: 38%;
+	z-index: 3;
+	}
+	
+	
+.higharrow {
+	position: absolute;
+	top: 45%;
+	left: 53%;
+	z-index: 3;
+	}
+	
+.camparrow {
+	position: absolute;
+	top: 45%;
+	left: 57%;
+	z-index: 3;
+	}
